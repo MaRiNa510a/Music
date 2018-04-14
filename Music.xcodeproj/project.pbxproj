@@ -12,6 +12,12 @@
 		9CE4DC11207E0DA600A0FB7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4DC0F207E0DA600A0FB7B /* Main.storyboard */; };
 		9CE4DC13207E0DA700A0FB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4DC12207E0DA700A0FB7B /* Assets.xcassets */; };
 		9CE4DC16207E0DA700A0FB7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4DC14207E0DA700A0FB7B /* LaunchScreen.storyboard */; };
+		9CE4DC24207E0DC700A0FB7B /* aki.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4DC1E207E0DC700A0FB7B /* aki.png */; };
+		9CE4DC25207E0DC700A0FB7B /* natsu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4DC1F207E0DC700A0FB7B /* natsu.mp3 */; };
+		9CE4DC26207E0DC700A0FB7B /* ame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4DC20207E0DC700A0FB7B /* ame.mp3 */; };
+		9CE4DC27207E0DC700A0FB7B /* natsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4DC21207E0DC700A0FB7B /* natsu.png */; };
+		9CE4DC28207E0DC700A0FB7B /* ame.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4DC22207E0DC700A0FB7B /* ame.png */; };
+		9CE4DC29207E0DC700A0FB7B /* aki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4DC23207E0DC700A0FB7B /* aki.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		9CE4DC12207E0DA700A0FB7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CE4DC15207E0DA700A0FB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CE4DC17207E0DA700A0FB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE4DC1E207E0DC700A0FB7B /* aki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aki.png; sourceTree = "<group>"; };
+		9CE4DC1F207E0DC700A0FB7B /* natsu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = natsu.mp3; sourceTree = "<group>"; };
+		9CE4DC20207E0DC700A0FB7B /* ame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ame.mp3; sourceTree = "<group>"; };
+		9CE4DC21207E0DC700A0FB7B /* natsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natsu.png; sourceTree = "<group>"; };
+		9CE4DC22207E0DC700A0FB7B /* ame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ame.png; sourceTree = "<group>"; };
+		9CE4DC23207E0DC700A0FB7B /* aki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aki.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +68,26 @@
 			children = (
 				9CE4DC0B207E0DA600A0FB7B /* AppDelegate.swift */,
 				9CE4DC0D207E0DA600A0FB7B /* ViewController.swift */,
+				9CE4DC1D207E0DC700A0FB7B /* Music素材 */,
 				9CE4DC0F207E0DA600A0FB7B /* Main.storyboard */,
 				9CE4DC12207E0DA700A0FB7B /* Assets.xcassets */,
 				9CE4DC14207E0DA700A0FB7B /* LaunchScreen.storyboard */,
 				9CE4DC17207E0DA700A0FB7B /* Info.plist */,
 			);
 			path = Music;
+			sourceTree = "<group>";
+		};
+		9CE4DC1D207E0DC700A0FB7B /* Music素材 */ = {
+			isa = PBXGroup;
+			children = (
+				9CE4DC1E207E0DC700A0FB7B /* aki.png */,
+				9CE4DC1F207E0DC700A0FB7B /* natsu.mp3 */,
+				9CE4DC20207E0DC700A0FB7B /* ame.mp3 */,
+				9CE4DC21207E0DC700A0FB7B /* natsu.png */,
+				9CE4DC22207E0DC700A0FB7B /* ame.png */,
+				9CE4DC23207E0DC700A0FB7B /* aki.mp3 */,
+			);
+			path = "Music素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +148,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CE4DC26207E0DC700A0FB7B /* ame.mp3 in Resources */,
 				9CE4DC16207E0DA700A0FB7B /* LaunchScreen.storyboard in Resources */,
+				9CE4DC25207E0DC700A0FB7B /* natsu.mp3 in Resources */,
+				9CE4DC29207E0DC700A0FB7B /* aki.mp3 in Resources */,
 				9CE4DC13207E0DA700A0FB7B /* Assets.xcassets in Resources */,
 				9CE4DC11207E0DA600A0FB7B /* Main.storyboard in Resources */,
+				9CE4DC28207E0DC700A0FB7B /* ame.png in Resources */,
+				9CE4DC27207E0DC700A0FB7B /* natsu.png in Resources */,
+				9CE4DC24207E0DC700A0FB7B /* aki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
